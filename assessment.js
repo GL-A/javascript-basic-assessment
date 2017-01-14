@@ -153,12 +153,13 @@ function coderTest(person){
   if(person.name === 'Jeremy'){
     person.lovesCode = 10;
   }
-  if(person.name === 'Brack'){
+  else if(person.name === 'Brack'){
     person.lovesCode = 0;
   }
   else{
     person.lovesCode = 5;
   }
+    return person;
 }
 
 // #15 Create a function called outside that takes in a temperature (number), a humidity(number), and a cloudiness(number), in that order. Using the following to return the correct values
